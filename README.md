@@ -22,11 +22,11 @@ This will install all required dependencies and launch a Docker container which 
 ## Manual Setup
 Like any other Julia project, you can install the required packages using the `Project.toml` and `Manifest.toml` files via `import Pkg; Pkg.activate("."); Pkg.resolve(); Pkg.instantiate()`.
 I have tested the versions in the `Manifest.toml` file, but you can update them to the latest version since I have included  github dependencies in the `[sources]` section of `Project.toml`:
-* https://github.com/rwth-irt/BayesNet.jl - Type stable implementation of a Bayesian network.
-* https://github.com/rwth-irt/KernelDistributions.jl - Subset of Distributions.jl which can be used in CUDA kernels.
-* https://github.com/rwth-irt/PoseErrors.jl - 6D pose error metrics from [BOP Challenge](https://bop.felk.cvut.cz/home/)
-* https://github.com/rwth-irt/SciGL.jl - Efficient rendering in OpenGL and CUDA interop for julia
-* https://github.com/rwth-irt/BlenderProc.DissTimRedick - BlenderProc setup to generate the synthetic datasets from my dissertation. 
+* https://github.com//BayesNet.jl - Type stable implementation of a Bayesian network.
+* https://github.com//KernelDistributions.jl - Subset of Distributions.jl which can be used in CUDA kernels.
+* https://github.com//PoseErrors.jl - 6D pose error metrics from [BOP Challenge](https://bop.felk.cvut.cz/home/)
+* https://github.com//SciGL.jl - Efficient rendering in OpenGL and CUDA interop for julia
+* https://github.com//BlenderProc.DissTimRedick - BlenderProc setup to generate the synthetic datasets from my dissertation. 
 
 # Obtaining the Datasets
 With the exception of the STERI dataset, all datasets can be obtained from the [BOP benchmark](https://bop.felk.cvut.cz/home/).

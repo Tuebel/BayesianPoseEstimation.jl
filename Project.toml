@@ -46,12 +46,12 @@ ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 # CairoMakie = "=0.13.0"
 
 [sources]
-BayesNet = {url = "https://github.com/rwth-irt/BayesNet.jl"}
+BayesNet = {url = "https://github.com//BayesNet.jl"}
 GLAbstraction = {url = "https://github.com/Tuebel/GLAbstraction.jl.git"}
-KernelDistributions = {url = "https://github.com/rwth-irt/KernelDistributions.jl"}
-PoseErrors = {url = "https://github.com/rwth-irt/PoseErrors.jl"}
-RobotOSData = {url = "https://github.com/rwth-irt/RobotOSData.jl"}
-SciGL = {url = "https://github.com/rwth-irt/SciGL.jl"}
+KernelDistributions = {url = "https://github.com//KernelDistributions.jl"}
+PoseErrors = {url = "https://github.com//PoseErrors.jl"}
+RobotOSData = {url = "https://github.com//RobotOSData.jl"}
+SciGL = {url = "https://github.com//SciGL.jl"}
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
