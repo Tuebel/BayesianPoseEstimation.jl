@@ -11,8 +11,8 @@ services:
       - /usr/lib/wsl:/usr/lib/wsl
       # User specific runtime files
       - $XDG_RUNTIME_DIR:$XDG_RUNTIME_DIR
+    # Accelerated 3D graphics for Intel - comment out in WSL2 which uses D3D
     devices:
-      # Accelerated 3D graphics for Intel
       - /dev/dri
     environment:
       # GUI support
