@@ -4,6 +4,10 @@ This code has been produced during while writing my Ph.D. (Dr.-Ing.) thesis at t
 If you find it helpful for your research please cite this:
 > T. Redick, „Bayesian inference for CAD-based pose estimation on depth images for robotic manipulation“, RWTH Aachen University, 2024. doi: [10.18154/RWTH-2024-04533](https://doi.org/10.18154/RWTH-2024-04533).
 
+The synthetic validation data (tested on BOP challenge) as well as the tracking data of the iliac crest phantom have been published here.
+Only the surgical instruments have been excluded since the CAD models are proprietary.
+> Redick, T. (2025). Datasets for Dissertation "Bayesian inference for CAD-based pose estimation on depth images for robotic manipulation" [Data set]. Zenodo. DOI [10.5281/zenodo.15687206](https://doi.org/10.5281/zenodo.15687207)
+
 I submitted my results of the best performing SMC sampler to the [BOP benchmark](https://bop.felk.cvut.cz/home/) with two different time budgets per pose estimate:
 * 1 second: https://bop.felk.cvut.cz/method_info/458/
 * 0.5 seconds: https://bop.felk.cvut.cz/method_info/457/
